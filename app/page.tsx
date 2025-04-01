@@ -15,27 +15,29 @@ export default function HomePage() {
           </Link>
           <nav className="ml-auto flex gap-4 sm:gap-6 flex-row items-center">
             <Link
-              href="/"
+              href="/book"
               className="text-sm font-medium hover:underline underline-offset-4"
             >
               Book a Ride
             </Link>
             <Link
-              href="/"
+              href="/tracking"
               className="text-sm font-medium hover:underline underline-offset-4"
             >
               Track Ride
             </Link>
             <Link
-              href="/"
+              href="/feedback"
               className="text-sm font-medium hover:underline underline-offset-4"
             >
               Feedback
             </Link>
-            <Button variant="outline" size="sm">
-              Sign In
-            </Button>
             <Link href="/login">
+              <Button variant="outline" size="sm">
+                Sign In
+              </Button>
+            </Link>
+            <Link href="/signup">
               <Button size="sm">Sign Up</Button>
             </Link>
           </nav>
@@ -230,9 +232,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-sm font-medium">Sarah Johnson</p>
-                    <p className="text-xs text-muted-foreground">
-                      Model 
-                    </p>
+                    <p className="text-xs text-muted-foreground">Model</p>
                   </div>
                 </div>
               </div>
@@ -292,9 +292,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-sm font-medium">Jessica Williams</p>
-                    <p className="text-xs text-muted-foreground">
-                      Developer
-                    </p>
+                    <p className="text-xs text-muted-foreground">Developer</p>
                   </div>
                 </div>
               </div>
